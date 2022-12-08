@@ -1,0 +1,24 @@
+.agreementMore {
+  background: #fff;
+  position: relative;
+  padding: 20px 24px;
+  .title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  :global {
+    .remove {
+      position: absolute;
+      right: 10px;
+      top: 8px;
+      z-index: 1;
+      color: #fe9d17;
+    }
+    .del-button {
+      color: #ff9500;
+    }
+    .text {
+      margin-top: 14px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.dividerComponent {
+  // background-color: red;
+  :global {
+    .ant-divider-horizontal {
+      margin: 12px 0;
+      font-weight: 700;
+    }
+    .ant-divider-with-text::before,
+    .ant-divider-with-text::after {
+      border-block-start: 2px solid transparent;
+      border-block-start-color: inherit;
+    }
+
+    .ant-scroll-number {
+      background-color: #4c8dfd;
+      margin-left: 40px;
+    }
+    .agreement {
+      margin: 0px 30px 0px 10px !important;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.app {
+  :global {
+    .ant-layout-header {
+      background-image: linear-gradient(to right, #000, 10%, #384854) !important;
+    }
+    .ant-menu-root {
+      color: rgba(255, 255, 255, 0.65);
+      background: #2a3238 !important;
+    }
+    .ant-menu-title-content::after {
+      display: inline-block;
+      content: " ";
+      height: 8px;
+      width: 8px;
+      border-width: 2px 2px 0 0;
+      border-color: #c7c7cc;
+      border-style: solid;
+      transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+      position: absolute;
+      top: 63%;
+      right: 15px;
+      margin-top: -9px;
+    }
+    .ant-layout-content {
+      margin: 0 !important;
+    }
+  }
+}

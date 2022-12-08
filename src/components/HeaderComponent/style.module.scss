@@ -1,0 +1,29 @@
+.headerComponent {
+  color: #bbbbbb;
+  display: flex;
+  font-size: 20px;
+  height: 64px;
+  line-height: 50px;
+  :global {
+    .box {
+      cursor: pointer;
+      .anticon {
+        color: white;
+        background: #50575c;
+        padding: 5px 6px 7px 5px;
+        border-radius: 9px;
+        margin-left: 60px;
+      }
+      span {
+        font-size: 10px;
+        margin-left: 10px;
+        vertical-align: -webkit-baseline-middle;
+      }
+      img {
+        margin-left: 60px;
+        width: 78px;
+        vertical-align: -webkit-baseline-middle;
+      }
+    }
+  }
+}

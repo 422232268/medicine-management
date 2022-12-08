@@ -1,0 +1,40 @@
+.productComponent {
+  height: 58px;
+  line-height: 58px;
+  background: #fff;
+  margin-top: 10px;
+  :global {
+    .product {
+      display: inline-block;
+      width: 140px;
+      min-width: 140px;
+      height: 58px;
+      line-height: 58px;
+      margin-left: 50px;
+    }
+    .product-info {
+      color: #4e8dff;
+    }
+    .product-name {
+      margin-left: 14px;
+    }
+    .product-number {
+      margin-left: 8px;
+    }
+
+    .date {
+      display: inline-block;
+      width: 310px;
+      min-width: 310px;
+      height: 58px;
+      line-height: 58px;
+      margin-left: 70px;
+    }
+    .delete {
+      color: #ff9500;
+      float: right;
+      top: 14px;
+      right: 12px;
+    }
+  }
+}

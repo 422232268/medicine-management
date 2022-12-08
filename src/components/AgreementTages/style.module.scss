@@ -1,0 +1,28 @@
+.agreementTages {
+  position: relative;
+  margin-bottom: 40px;
+  :global {
+    .add {
+      position: absolute;
+      right: 0;
+      top: -14px;
+      z-index: 1;
+      .ant-btn {
+        height: 36px;
+      }
+    }
+    .ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab {
+      border-radius: 0;
+      margin-left: -1px;
+      background: #fff;
+      height: 32px;
+      border-bottom: 0;
+    }
+    .ant-tabs > .ant-tabs-nav .ant-tabs-nav-operations {
+      visibility: hidden;
+    }
+    .ant-tabs-nav {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.saveComponent {
+  position: absolute;
+  height: 84px;
+  line-height: 84px;
+  padding: 0 20px;
+  background: #fff;
+  :global {
+    .home-box {
+      padding: 0 20px;
+    }
+  }
+}

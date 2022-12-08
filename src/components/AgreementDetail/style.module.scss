@@ -1,0 +1,40 @@
+.agreementDetail {
+  height: 210px;
+  padding: 0 16px;
+  margin-top: 2px;
+  background: #fff;
+  overflow: hidden;
+  :global {
+    .box {
+      display: flex;
+      border: 1px solid #ccc;
+      padding: 0;
+      margin-top: 12px;
+      .sub-box {
+        flex-grow: 1;
+        flex: 1;
+        .title {
+          height: 32px;
+          line-height: 32px;
+          background: #f8f8f8;
+          padding-left: 10px;
+          font-size: 12px;
+          font-weight: 600;
+        }
+        .container {
+          position: relative;
+          top: 6px;
+          padding-left: 10px;
+        }
+      }
+      .sub-box:last-child {
+        .container {
+          padding-right: 10px;
+        }
+      }
+    }
+    .ant-form-item {
+      margin-bottom: 12px;
+    }
+  }
+}

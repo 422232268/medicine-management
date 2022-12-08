@@ -1,0 +1,92 @@
+.customerInfo {
+  height: 350px;
+  background-color: #fff;
+  padding: 10px 36px;
+  display: flex;
+  flex-wrap: wrap;
+  :global {
+    .ant-form-item {
+      margin-bottom: 16px;
+    }
+    .ant-select-selection-placeholder {
+      color: #000;
+      font-size: 12px;
+    }
+
+    .left {
+      width: 50%;
+      display: flex;
+      .left-box {
+        width: 190px;
+        min-width: 190px;
+        .customer {
+          position: relative;
+          left: -10px;
+        }
+      }
+      .right-box {
+        width: 100%;
+        margin-left: 12px;
+        p {
+          height: 32px;
+          line-height: 32px;
+          margin-bottom: 16px;
+        }
+        .money {
+          max-width: 350px;
+        }
+        .region {
+          width: 90px;
+        }
+        .channel {
+          width: 100px;
+        }
+      }
+    }
+    .right {
+      width: 50%;
+      .box {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0%;
+        .right-box {
+          margin-left: 12px;
+          width: 350px;
+        }
+      }
+      .agreement-status {
+        width: 270px;
+        min-width: 270px;
+      }
+      .money {
+        max-width: 350px;
+      }
+      .sell {
+        width: 180px;
+        min-width: 180px;
+      }
+      .date {
+        .ant-picker {
+          width: 460px;
+          min-width: 460px;
+        }
+      }
+    }
+    .bottom {
+      width: 100%;
+      padding-left: 60px;
+      .ant-table-wrapper
+        .ant-table-thead
+        > tr
+        > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+        width: unset;
+      }
+      .ant-table-thead > tr > th {
+        padding: 2px 8px !important;
+      }
+      .ant-table.ant-table-small .ant-table-tbody > tr > td {
+        padding: 2px 8px !important;
+      }
+    }
+  }
+}

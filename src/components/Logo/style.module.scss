@@ -1,0 +1,14 @@
+.logo {
+  height: 46px;
+  margin: 16px;
+  background: #2a3238;
+  color: #f1f1f1;
+  :global {
+    .title {
+      height: 28px;
+      font-size: 14px;
+      padding-left: 8px;
+      line-height: 28px;
+    }
+  }
+}

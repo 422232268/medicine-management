@@ -1,0 +1,20 @@
+.navigationComponent {
+  height: 84px;
+  background: #ffff;
+  font-size: 14px;
+  padding: 4px 30px;
+  margin-top: 2px;
+  :global {
+    .ant-breadcrumb {
+      height: 40px;
+      line-height: 40px;
+      color: #8c8c8c;
+    }
+    .ant-breadcrumb-separator {
+      margin-inline: 0;
+    }
+    h2 {
+      font-weight: 550;
+    }
+  }
+}
